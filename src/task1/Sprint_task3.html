@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sprint Task3</title>
+</head>
+<body>
+<div style="display: flex; justify-content: space-around; width: 50%; background: cadetblue; padding-bottom: 45px">
+    <div>
+    <p>Введите сумму:</p>
+    <input id="enterSum" style="padding: 4px; border-radius: 0" type="number">
+    <select id = "select" style="padding: 4px; border-radius: 0" onchange="getCurrency()">
+        <option>KZT</option>
+        <option>USD</option>
+        <option>EUR</option>
+    </select>
+    </div>
+
+    <div>
+         <p>KZT (tenge)</p>
+        <input id="tenge" style="padding: 4px; border-radius: 0" type="number" disabled value="">
+    </div>
+    <div>
+        <p>USD (dollar)</p>
+        <input id="dollar" style="padding: 4px; border-radius: 0" type="number" disabled value="">
+    </div>
+    <div>
+        <p>EUR (euro)</p>
+        <input id="euro" style="padding: 4px; border-radius: 0" type="number" disabled value="">
+    </div>
+
+</div>
+<script src="SprintTask3.js"></script>
+</body>
+</html>
